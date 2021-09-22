@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import Counter from './UtilComponent/Counter';
-import Hello from './UtilComponent/Hello';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div>
 
-      <Hello msg="DS DELIVERY" />
-
-      
+        <Navbar />
 
     </div>
   );
